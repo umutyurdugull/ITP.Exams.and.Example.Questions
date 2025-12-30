@@ -75,10 +75,8 @@ Write a function that takes an array of size 200 (or a large string) and finds t
 
 
 
-**3. Course Grade System**
-Write a program that records the course codes taken by students (assume a Class or Structure definition exists). The program should output the list of Course Codes and the calculated Class Average for each course.
 
-**4. Case Swapping by Index**
+**3. Case Swapping by Index**
 Write a program that iterates through a character array or string:
 * At **Odd Indices**: If the character is Uppercase, convert it to Lowercase.
 * At **Even Indices**: If the character is Lowercase, convert it to Uppercase.
