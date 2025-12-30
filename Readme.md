@@ -65,6 +65,38 @@ The following table shows daily production data for 5 machines: **Machine No**, 
 
 ---
 
+### Scenario 3: Student Grading System (Final Exam 2022)
+
+[cite_start]The following table shows the midterm and final exam grades of 5 students[cite: 191].
+
+| Student ID | Midterm | Final Exam |
+| :--- | :--- | :--- |
+| 0 | 55 | 83 |
+| 1 | 84 | 75 |
+| 2 | 68 | 90 |
+| 3 | 26 | 45 |
+| 4 | 87 | 93 |
+
+**Requirements:**
+
+1.  [cite_start]**a) Array Initialization:** Declare, create, and initialize a two-dimensional student array to hold the ID, Midterm, and Final Exam scores[cite: 193].
+2.  [cite_start]**b) Calculation Method:** Write a method that calculates the **success grades** of the students[cite: 195].
+    * Formula: `successGrade = Midterm * 0.4 + Final * 0.6`
+3.  [cite_start]**c) Display Method:** Write a method that displays the students' success grades[cite: 196].
+4.  [cite_start]**d) Letter Grade Method:** Write a method that assigns letter grades corresponding to the success grades and stores them in an array[cite: 197]. Use the table below:
+
+    | Success Grade | Letter Grade |
+    | :--- | :--- |
+    | 100 - 90 | A |
+    | 89 - 80 | B |
+    | 79 - 70 | C |
+    | 69 - 60 | D |
+    | 59 - 0 | F |
+
+5.  **e) Unsuccessful Students:** 'F' grade is considered unsuccessful. [cite_start]Write a method that displays the students who are unsuccessful[cite: 199].
+
+---
+
 ## Part 2: Algorithmic Logic & String Operations
 
 **1. Clock Angle Calculator**
@@ -72,9 +104,6 @@ Write a program that takes a digitally entered time (Hour and Minute) and calcul
 
 **2. Most Frequent Character**
 Write a function that takes an array of size 200 (or a large string) and finds the character that appears the most frequently.
-
-
-
 
 **3. Case Swapping by Index**
 Write a program that iterates through a character array or string:
